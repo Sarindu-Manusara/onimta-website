@@ -3,7 +3,7 @@ import About from "./components/About";
 import Blog from "./components/BLog";
 import ClientCarousel from "./components/ClientCarousel";
 import Contact from "./components/Contact";
-import CtaFive from "@/components/CtaFive/CtaFive";
+import CtaOne from "./components/CtaOne";
 import CtaSix from "@/components/CtaSix/CtaSix";
 import FeatureFour from "@/components/FeatureFour/FeatureFour";
 import FeatureThree from "@/components/FeatureThree/FeatureThree";
@@ -42,7 +42,7 @@ const page = () => {
       <WhyChooseOne />
       <TestimonialsTwo />
       <ProjectTwo />
-      <CtaFive />
+      <CtaOne />
       <TeamTwo />
       <ClientCarousel pageTitle="homeThree" />
       <SkillOne />
