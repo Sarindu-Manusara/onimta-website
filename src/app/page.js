@@ -1,7 +1,7 @@
 
-import AboutThree from "@/components/AboutThree/AboutThree";
-import BlogThree from "@/components/BlogThree/BlogThree";
-import ClientCarousel from "@/components/ClientCarousel/ClientCarousel";
+import About from "./components/About";
+import Blog from "./components/BLog";
+import ClientCarousel from "./components/ClientCarousel";
 import ContactTwo from "@/components/ContactTwo/ContactTwo";
 import CtaFive from "@/components/CtaFive/CtaFive";
 import CtaSix from "@/components/CtaSix/CtaSix";
@@ -36,7 +36,7 @@ const page = () => {
       <HeaderThreeSingleCloned />
       <MainSliderThree />
       <FeatureFour />
-      <AboutThree />
+      <About />
       <FunFactTwo />
       <CtaSix />
       <WhyChooseOne />
@@ -48,7 +48,7 @@ const page = () => {
       <SkillOne />
       <FeatureThree />
       <ContactTwo />
-      <BlogThree />
+      <Blog />
       <MailTwo />
       <FooterThree />
     </Layout>
