@@ -2,7 +2,7 @@
 import About from "./components/About";
 import Blog from "./components/BLog";
 import ClientCarousel from "./components/ClientCarousel";
-import ContactTwo from "@/components/ContactTwo/ContactTwo";
+import Contact from "./components/Contact";
 import CtaFive from "@/components/CtaFive/CtaFive";
 import CtaSix from "@/components/CtaSix/CtaSix";
 import FeatureFour from "@/components/FeatureFour/FeatureFour";
@@ -47,7 +47,7 @@ const page = () => {
       <ClientCarousel pageTitle="homeThree" />
       <SkillOne />
       <FeatureThree />
-      <ContactTwo />
+      <Contact />
       <Blog />
       <MailTwo />
       <FooterThree />
