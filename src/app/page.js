@@ -15,7 +15,7 @@ import Layout from "./components/Layout";
 import Mail from "./components/Mail";
 import MainSlider from "./components/MainSlider";
 import Project from "./components/Project";
-import SkillOne from "@/components/SkillOne/SkillOne";
+import Skill from "./components/Skill";
 import TeamTwo from "@/components/TeamTwo/TeamTwo";
 import TestimonialsTwo from "@/components/TestimonialsTwo/TestimonialsTwo";
 import TopbarThree from "@/components/TopbarThree/TopbarThree";
@@ -45,7 +45,7 @@ const page = () => {
       <CtaOne />
       <TeamTwo />
       <ClientCarousel pageTitle="homeThree" />
-      <SkillOne />
+      <Skill />
       <FeatureOne />
       <Contact />
       <Blog />
