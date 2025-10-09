@@ -4,7 +4,7 @@ import Blog from "./components/BLog";
 import ClientCarousel from "./components/ClientCarousel";
 import Contact from "./components/Contact";
 import CtaOne from "./components/CtaOne";
-import CtaSix from "@/components/CtaSix/CtaSix";
+import CtaSix from "./components/CtaTwo";
 import FeatureFour from "@/components/FeatureFour/FeatureFour";
 import FeatureThree from "@/components/FeatureThree/FeatureThree";
 import FooterThree from "@/components/FooterThree/FooterThree";
