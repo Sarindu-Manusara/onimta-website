@@ -5,14 +5,14 @@ import ClientCarousel from "./components/ClientCarousel";
 import Contact from "./components/Contact";
 import CtaOne from "./components/CtaOne";
 import CtaSix from "./components/CtaTwo";
-import FeatureFour from "./components/FeatureTwo";
-import FeatureThree from "./components/FeatureTwo";
+import FeatureTwo from "./components/FeatureTwo";
+import FeatureOne from "./components/FeatureTwo";
 import FooterThree from "./components/Footer";
 import FunFact from "./components/FunFact";
 import HeaderThreeSingle from "./components/HeaderSingle";
 import HeaderThreeSingleCloned from "./components/HeaderSingleCloned";
-import Layout from "@/components/Layout/Layout";
-import MailTwo from "@/components/MailTwo/MailTwo";
+import Layout from "./components/Layout";
+import Mail from "./components/Mail";
 import MainSliderThree from "@/components/MainSliderThree/MainSliderThree";
 import ProjectTwo from "@/components/ProjectsTwo/ProjectsTwo";
 import SkillOne from "@/components/SkillOne/SkillOne";
@@ -35,7 +35,7 @@ const page = () => {
       <HeaderThreeSingle />
       <HeaderThreeSingleCloned />
       <MainSliderThree />
-      <FeatureFour />
+      <FeatureTwo />
       <About />
       <FunFact />
       <CtaSix />
@@ -46,10 +46,10 @@ const page = () => {
       <TeamTwo />
       <ClientCarousel pageTitle="homeThree" />
       <SkillOne />
-      <FeatureThree />
+      <FeatureOne />
       <Contact />
       <Blog />
-      <MailTwo />
+      <Mail />
       <FooterThree />
     </Layout>
   );
