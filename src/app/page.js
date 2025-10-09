@@ -7,8 +7,8 @@ import CtaOne from "./components/CtaOne";
 import CtaSix from "./components/CtaTwo";
 import FeatureFour from "./components/FeatureTwo";
 import FeatureThree from "./components/FeatureTwo";
-import FooterThree from "@/components/FooterThree/FooterThree";
-import FunFactTwo from "@/components/FunFactTwo/FunFactTwo";
+import FooterThree from "./components/Footer";
+import FunFact from "./components/FunFact";
 import HeaderThreeSingle from "@/components/HeaderThree/HeaderThreeSingle";
 import HeaderThreeSingleCloned from "@/components/HeaderThree/HeaderThreeSingleCloned";
 import Layout from "@/components/Layout/Layout";
@@ -37,7 +37,7 @@ const page = () => {
       <MainSliderThree />
       <FeatureFour />
       <About />
-      <FunFactTwo />
+      <FunFact />
       <CtaSix />
       <WhyChooseOne />
       <TestimonialsTwo />
