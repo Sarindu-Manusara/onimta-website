@@ -13,8 +13,8 @@ import HeaderThreeSingle from "./components/HeaderSingle";
 import HeaderThreeSingleCloned from "./components/HeaderSingleCloned";
 import Layout from "./components/Layout";
 import Mail from "./components/Mail";
-import MainSliderThree from "@/components/MainSliderThree/MainSliderThree";
-import ProjectTwo from "@/components/ProjectsTwo/ProjectsTwo";
+import MainSlider from "./components/MainSlider";
+import Project from "./components/Project";
 import SkillOne from "@/components/SkillOne/SkillOne";
 import TeamTwo from "@/components/TeamTwo/TeamTwo";
 import TestimonialsTwo from "@/components/TestimonialsTwo/TestimonialsTwo";
@@ -34,14 +34,14 @@ const page = () => {
       <TopbarThree />
       <HeaderThreeSingle />
       <HeaderThreeSingleCloned />
-      <MainSliderThree />
+      <MainSlider />
       <FeatureTwo />
       <About />
       <FunFact />
       <CtaSix />
       <WhyChooseOne />
       <TestimonialsTwo />
-      <ProjectTwo />
+      <Project />
       <CtaOne />
       <TeamTwo />
       <ClientCarousel pageTitle="homeThree" />
