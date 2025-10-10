@@ -16,8 +16,8 @@ import Mail from "./components/Mail";
 import MainSlider from "./components/MainSlider";
 import Project from "./components/Project";
 import Skill from "./components/Skill";
-import TeamTwo from "@/components/TeamTwo/TeamTwo";
-import TestimonialsTwo from "@/components/TestimonialsTwo/TestimonialsTwo";
+import Team from "./components/Team";
+import Testimonials from "./components/Testimonials";
 import TopbarThree from "@/components/TopbarThree/TopbarThree";
 import WhyChooseOne from "@/components/WhyChooseOne/WhyChooseOne";
 import React from "react";
@@ -40,10 +40,10 @@ const page = () => {
       <FunFact />
       <CtaSix />
       <WhyChooseOne />
-      <TestimonialsTwo />
+      <Testimonials />
       <Project />
       <CtaOne />
-      <TeamTwo />
+      <Team />
       <ClientCarousel pageTitle="homeThree" />
       <Skill />
       <FeatureOne />
