@@ -2,14 +2,14 @@
 import dynamic from "next/dynamic";
 import React, { useEffect, useState } from "react";
 import { Container } from "react-bootstrap";
-const TinySlider = dynamic(() => import("tiny-slider-react"), {
-  ssr: false,
-});
+
+const TinySlider = dynamic(() => import("tiny-slider-react"), { ssr: false });
 
 const topbarData = [
   "Wellcome To It-Solution !",
   "Best It-Solution Business !",
 ];
+
 const settings = {
   loop: true,
   mode: "gallery",
@@ -26,26 +26,28 @@ const settings = {
   autoplayButtonOutput: false,
 };
 
+const fallback = { items: 1, controls: false, nav: false };
+
 const Topbar = () => {
   const [mounted, setMounted] = useState(false);
-  useEffect(() => {
-    setMounted(true);
-  }, []);
+  useEffect(() => setMounted(true), []);
 
-  if (!mounted) {
-    return null;
-  }
   return (
-    <div className='topbar-three'>
+    <div className="topbar-three">
       <Container>
-        <TinySlider settings={settings} className='topbar-three__carousel'>
-          <div className='item'>
-            <p className='topbar-three__text'>Wellcome To It-Solution !</p>
-          </div>
-          <div className='item'>
-            <p className='topbar-three__text'>Best It-Solution Business !</p>
-          </div>
-        </TinySlider>
+        {mounted && (
+          <TinySlider
+            settings={settings ?? fallback}
+            onInit={() => {}}                    // ← pass as prop (function)
+            className="topbar-three__carousel"
+          >
+            {topbarData.map((text, i) => (
+              <div className="item" key={i}>
+                <p className="topbar-three__text">{text}</p>
+              </div>
+            ))}
+          </TinySlider>
+        )}
       </Container>
     </div>
   );

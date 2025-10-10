@@ -7,10 +7,10 @@ import CtaOne from "./components/CtaOne";
 import CtaSix from "./components/CtaTwo";
 import FeatureTwo from "./components/FeatureTwo";
 import FeatureOne from "./components/FeatureTwo";
-import FooterThree from "./components/Footer";
+import Footer from "./components/Footer";
 import FunFact from "./components/FunFact";
-import HeaderThreeSingle from "./components/HeaderSingle";
-import HeaderThreeSingleCloned from "./components/HeaderSingleCloned";
+import HeaderSingle from "./components/HeaderSingle";
+import HeaderSingleCloned from "./components/HeaderSingleCloned";
 import Layout from "./components/Layout";
 import Mail from "./components/Mail";
 import MainSlider from "./components/MainSlider";
@@ -30,10 +30,10 @@ export const metadata = {
 
 const page = () => {
   return (
-    <Layout pageTitle='homeThree'>
+    <Layout pageTitle='home'>
       <Topbar />
-      <HeaderThreeSingle />
-      <HeaderThreeSingleCloned />
+      <HeaderSingle />
+      <HeaderSingleCloned />
       <MainSlider />
       <FeatureTwo />
       <About />
@@ -44,13 +44,13 @@ const page = () => {
       <Project />
       <CtaOne />
       <Team />
-      <ClientCarousel pageTitle="homeThree" />
+      <ClientCarousel pageTitle="home" />
       <Skill />
       <FeatureOne />
       <Contact />
       <Blog />
       <Mail />
-      <FooterThree />
+      <Footer />
     </Layout>
   );
 };

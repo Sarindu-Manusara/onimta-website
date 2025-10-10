@@ -1,5 +1,5 @@
 
-import megamenuData from '@/data/MegamenuData';
+import megamenuData from '../data/MegamenuData';
 import { useRootContext } from '../Provider/context';
 import Image from 'next/image';
 import Link from 'next/link';

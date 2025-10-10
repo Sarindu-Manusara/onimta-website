@@ -4,7 +4,7 @@ import { useRootContext } from "../Provider/context";
 import Image from "next/image";
 import Link from "next/link";
 import useScroll from "../hooks/useScroll";
-import SingleNavItems from "../NavItems/SingleNavItems";
+import SingleNavItems from "../components/SingleNavItems";
 const { main_logo, singleNavItemsThree } = headerData;
 
 const HeaderSingle = () => {
