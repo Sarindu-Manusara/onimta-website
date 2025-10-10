@@ -18,8 +18,8 @@ import Project from "./components/Project";
 import Skill from "./components/Skill";
 import Team from "./components/Team";
 import Testimonials from "./components/Testimonials";
-import TopbarThree from "@/components/TopbarThree/TopbarThree";
-import WhyChooseOne from "@/components/WhyChooseOne/WhyChooseOne";
+import Topbar from "./components/Topbar";
+import WhyChoose from "./components/WhyChoose";
 import React from "react";
 
 export const metadata = {
@@ -31,7 +31,7 @@ export const metadata = {
 const page = () => {
   return (
     <Layout pageTitle='homeThree'>
-      <TopbarThree />
+      <Topbar />
       <HeaderThreeSingle />
       <HeaderThreeSingleCloned />
       <MainSlider />
@@ -39,7 +39,7 @@ const page = () => {
       <About />
       <FunFact />
       <CtaSix />
-      <WhyChooseOne />
+      <WhyChoose />
       <Testimonials />
       <Project />
       <CtaOne />
