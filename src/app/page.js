@@ -4,20 +4,20 @@ import Blog from "./components/BLog";
 import ClientCarousel from "./components/ClientCarousel";
 import Contact from "./components/Contact";
 import CtaOne from "./components/CtaOne";
-import CtaSix from "@/components/CtaSix/CtaSix";
-import FeatureFour from "@/components/FeatureFour/FeatureFour";
-import FeatureThree from "@/components/FeatureThree/FeatureThree";
-import FooterThree from "@/components/FooterThree/FooterThree";
-import FunFactTwo from "@/components/FunFactTwo/FunFactTwo";
-import HeaderThreeSingle from "@/components/HeaderThree/HeaderThreeSingle";
-import HeaderThreeSingleCloned from "@/components/HeaderThree/HeaderThreeSingleCloned";
-import Layout from "@/components/Layout/Layout";
-import MailTwo from "@/components/MailTwo/MailTwo";
-import MainSliderThree from "@/components/MainSliderThree/MainSliderThree";
-import ProjectTwo from "@/components/ProjectsTwo/ProjectsTwo";
-import SkillOne from "@/components/SkillOne/SkillOne";
-import TeamTwo from "@/components/TeamTwo/TeamTwo";
-import TestimonialsTwo from "@/components/TestimonialsTwo/TestimonialsTwo";
+import CtaSix from "./components/CtaTwo";
+import FeatureTwo from "./components/FeatureTwo";
+import FeatureOne from "./components/FeatureTwo";
+import FooterThree from "./components/Footer";
+import FunFact from "./components/FunFact";
+import HeaderThreeSingle from "./components/HeaderSingle";
+import HeaderThreeSingleCloned from "./components/HeaderSingleCloned";
+import Layout from "./components/Layout";
+import Mail from "./components/Mail";
+import MainSlider from "./components/MainSlider";
+import Project from "./components/Project";
+import Skill from "./components/Skill";
+import Team from "./components/Team";
+import Testimonials from "./components/Testimonials";
 import TopbarThree from "@/components/TopbarThree/TopbarThree";
 import WhyChooseOne from "@/components/WhyChooseOne/WhyChooseOne";
 import React from "react";
@@ -34,22 +34,22 @@ const page = () => {
       <TopbarThree />
       <HeaderThreeSingle />
       <HeaderThreeSingleCloned />
-      <MainSliderThree />
-      <FeatureFour />
+      <MainSlider />
+      <FeatureTwo />
       <About />
-      <FunFactTwo />
+      <FunFact />
       <CtaSix />
       <WhyChooseOne />
-      <TestimonialsTwo />
-      <ProjectTwo />
+      <Testimonials />
+      <Project />
       <CtaOne />
-      <TeamTwo />
+      <Team />
       <ClientCarousel pageTitle="homeThree" />
-      <SkillOne />
-      <FeatureThree />
+      <Skill />
+      <FeatureOne />
       <Contact />
       <Blog />
-      <MailTwo />
+      <Mail />
       <FooterThree />
     </Layout>
   );
